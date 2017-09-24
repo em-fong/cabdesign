@@ -12,7 +12,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-
 <link href="https://fonts.googleapis.com/css?family=Cabin|Lora" rel="stylesheet">
 
 <title> Imperial Cabinets and Home Design </title>
@@ -21,38 +20,76 @@
 
 body {
   width: auto;
-  height:auto;
+  height: auto;
+}
+
+nav {
+  font-size: 25px;
+  background: #FEFEFE;
+  width: 100%;
+  height: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-color: #EFEFEF;
+}
+
+ul {
+  padding-top: 15px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+    float: left;
+    margin-right: 3%;
+    text-decoration: none;
+    font-family: "Lora", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #bc0e05;
+}
+
+a:hover{
+  color: #c97570;
+}
+
+a:visited {
+  color: #332b2a;
+}
+
+#bod {
+  padding-top: 50px;
 }
 
 .txt {
   font-family: Helvetica, serif;
-  font-size: 30px;
-  padding-left: 60px;
-  padding-right: 60px;
+  font-size: 200%;
+  padding-left: 10%;
+  max-width: 90%;
 }
 .title {
   font-family: 'Lora', cursive;
   color: Black;
-  font-size: 80px;
+  font-size: 600%;
 }
+
 .cabs {
-  height: 40%;
-  width: 40%;
-  padding-left: 150px;
+  max-width: 80%;
+  padding-left: 20%;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("cab2.jpg");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.logo {
+  max-width: 80%;
+  padding-left: 20%;
 }
 
 </style>
@@ -60,26 +97,20 @@ body {
 
 <body>
 
-  <nav class="navbar navbar-default" style="background-color: #FFF;">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#"></a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#" style="color:#C83333; font-family: Lora, sans-serif;">Imperial Cabinets</a></li>
-      <li><a href="#about" style="color:#C83333; font-family: Lora, sans-serif;">Our Story</a></li>
-      <li><a href="#services" style="color:#C83333; font-family: Lora, sans-serif;">Services</a></li>
-      <li><a href="#contact" style="color:#C83333; font-family: Lora, sans-serif;">Contact Us</a></li>
-    </ul>
-  </div>
-</nav>
+  <nav>
+    <ul>
+    <li><a href="#">Home</a> </li>
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#team">Team Members</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+    <br><hr>
+  </ul>
+  </nav>
+<div id = "bod">
+<img class="logo" src="ImperialCabLogo.jpg">
 
-<h1 class="title" align="CENTER" style="height:90%;width:90%;"> <img src="ImperialCabLogo.jpg"> </h1>
-
-<div class="parallax">
-</div>
-
-<div id="about" style="height:650px;background-color:white;font-size:36px">
+<div id="about" style="background-color:white;">
   <div class="small">
     <hr>
   <h1 align="CENTER" class="title" style="color:black;"> Our Story </h1>
@@ -88,56 +119,84 @@ body {
     after another. Sometimes when we visited showrooms, we were given very few choices, poor service, or found that
     the cabinets we loved cost far beyond what we budgeted. <br><br>
 
-    One year after we purchased our cabinets, the paint started peeling off of them. However, we were told
-    that the cabinets were only guaranteed for one year, and that there was nothing they could do without charging us extra. <br><br>
+    One year after we purchased our cabinets, the paint started peeling off. However, we were told
+    that the cabinets were only guaranteed for one year, and that there was nothing they could do without charging extra. <br><br>
 
     We started Imperial Cabinets and Home Design because we know what it feels like to try
-    to find the right pieces for a beautiful home. Our Lifetime Warranty policy was
-    inspired by our experiences after we brought our cabinets home. We understand
-    what makes really makes a home feel like a home.
+    to find the right pieces for a beautiful home. We created our Lifetime Warranty policy after we realized
+    how frustrating the process of choosing the right cabinets can be. We understand
+    what really makes a home feel like a home.
     </p>
 </div> <!-- end div small -->
 
 </div> <!-- end div parallax bar -->
 
-<div id="services" style="height:1100px;background-color:white;font-size:36px">
+<div id="services" style="background-color:white;">
   <div class="small">
     <hr>
   <h1 align="CENTER" class="title" style="color:black;"> Services </h1>
     <hr>
 
   <p class="txt" align="left"> We offer a wide range of US-made and imported cabinets, from custom-designed to classic styles, to suit every room in your home.
-    We specialize in cabinetry and closets for the <em>kitchen, bath, and home office.</em> We also office a <em>custom
+    We specialize in cabinetry and closets for the kitchen, bath, and office. We also offer a <em>custom
     design service,</em> so that you can design your own furnishings to perfectly match your home.
     <br><br>
-    A Lifetime Warranty is available for select products, as well as field measuring and custom services for a nominal fee. In most cases, we wave design fees once you place an order.
+    A Lifetime Warranty is available for select products, as well as field measuring and custom services for a nominal fee. In most cases, the fee will be waved once you place an order with us.
+    <br><br>
+
+    <em> Click on each of the pictures below to check out a virtual tour of our designs. </em>
   </p> <br>
 
-  <img class="cabs" src="cab3.JPG">
-  <img class="cabs" src="cab4.JPG">
-  <img class="cabs" src="cab5.JPG">
-  <img class="cabs" src="cab6.JPG">
+
+  <a href="http://panorama.2020.net/view/tijoavuhumsxzmgpxpbrw/"><img class="cabs" src="cab1.jpg"></a>
+  <a href="http://panorama.2020.net/view/7gii7bw102kb2tonbu6ra/"><img class="cabs" src="cab2.jpg"></a>
+  <a href="http://panorama.2020.net/view/wbc3rxf8ky45lnhvxlt1a/"><img class="cabs" src="cab3.jpg"></a>
 
 </div> <!-- end div small -->
 
 </div> <!-- end div parallax bar -->
 
-<div id="contact" style="height:1000px;background-color:white;font-size:36px">
+<div id="team" style="background-color:white;">
+  <div class="small">
+    <hr>
+  <h1 align="CENTER" class="title" style="color:black;"> Team Members </h1>
+    <hr>
+
+<h3 align="CENTER"> In-House Architect </h3>
+  <p class="txt" align="left"> Eugene Loh, our architect, is a licensed UC Berkeley graduate. He worked as an associate
+    of several major architectural firms in San Francisco. In 2010, Eugene started his own architectural studio
+    with a major emphasis in residential design, specializing in pulling permits, house addition and/or expansion,
+    kitchen and bathroom remodeling.
+  </p> <br>
+
+</div> <!-- end div small -->
+
+</div> <!-- end div parallax bar -->
+
+
+<div id="contact" style="background-color:white;">
   <div class="small">
     <hr>
   <h1 align="CENTER" class="title" style="color:black;"> Contact Us </h1>
     <hr>
-    <p class="txt" align="CENTER"> <strong>Showroom Address:</strong> 1222 South El Camino Real <br>
-  San Mateo, California 94402 </p>
-  <p class="txt" align="CENTER"> <strong>Phone:</strong> <a href="tel:16503896624">(650) 389-6624</a> </p>
-  <p class="txt" align="CENTER"> <strong>Email:</strong> <a href="mailto:imperialcabinetdesign@gmail.com">imperialcabinetdesign@gmail.com </a> </p>
 
-<div style="padding-left:410px;">
-  <iframe style="padding-left: 100px:;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9886738021187!2d-122.32014048484014!3d37.55533063252781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9e67673bc31d%3A0xa7ba97ce94971635!2s1222+S+El+Camino+Real%2C+San+Mateo%2C+CA+94402!5e0!3m2!1sen!2sus!4v1504206078400"
-  width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+    <div style="max-width:90%;padding-left:27%">
+    <p class="txt"> <strong>Address:</strong> 1222 South El Camino Real <br> San Mateo, California 94402 </p>
+    <br>
+      <p class="txt"> <strong>Hours:</strong> Mon-Tues: By Appointment Only <br> Wed-Sun: 11AM - 6PM </p>
+      <br>
+  <p class="txt"> <strong>Phone:</strong> <a href="tel:16503896624">(650) 389-6624</a> </p>
+  <br>
+  <p class="txt"> <strong>Email:</strong> <a href="mailto:imperialcabinetdesign@gmail.com">imperialcabinetdesign@gmail.com </a> </p>
+  </div>
+  <div style="padding-left:10%;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9886738021187!2d-122.32014048484014!3d37.55533063252781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f9e67673bc31d%3A0xa7ba97ce94971635!2s1222+S+El+Camino+Real%2C+San+Mateo%2C+CA+94402!5e0!3m2!1sen!2sus!4v1504206078400"
+    width="90%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
 
 </div> <!-- end div parallax bar -->
+
+</div>
 
 <!-- Bootstrap core JavaScript
     ================================================== -->
